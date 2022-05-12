@@ -1,0 +1,116 @@
+body {
+    background-color: floralwhite;
+    text-align: center;
+}
+
+hr {
+    width: 700px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#start {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+#startGame {
+    background-color: seagreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* .puzzle {
+    margin: 0 auto;
+    display: grid;
+    border: solid 1px black;
+    width: 450px;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    /* grid-template-rows: 10% 10% 10% 10% 10%; */
+    /* background-color:darksalmon; */
+/* } */ 
+
+.puzzle {
+    width: 450px;
+    height: 450px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+    /* background-color: linen ; */
+}
+
+/* .row {
+    width: 450px;
+} */
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgrey;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-start {
+    background-color: cornsilk;
+}
+
+.horizontal {
+    border-bottom: 1px solid black;
+}
+
+.vertical {
+    border-right: 1px solid black;
+}
+
+.number {
+    background-color: white;
+    border: 1px solid black;
+    margin: 2px;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    border-radius: 0px;
+    font-size: 14px;
+    /* box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03); */
+    /* transition: all .5s ease; */
+}
+
+/* .num-select:hover {
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+  transition: all .4s ease; /* zoom in */
+/* } */ 
+
+.num-select {
+    background-color: grey;
+}
+
+#submit {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    display: inline-block;
+    font-size: 15px;
+}
