@@ -12,6 +12,10 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #start {
     font-family: 'Courier New', Courier, monospace;
     margin: 10px;
@@ -29,16 +33,6 @@ h1 {
     font-size: 16px;
 }
 
-/* .puzzle {
-    margin: 0 auto;
-    display: grid;
-    border: solid 1px black;
-    width: 450px;
-    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-    /* grid-template-rows: 10% 10% 10% 10% 10%; */
-    /* background-color:darksalmon; */
-/* } */ 
-
 .puzzle {
     width: 450px;
     height: 450px;
@@ -49,10 +43,6 @@ h1 {
    
     /* background-color: linen ; */
 }
-
-/* .row {
-    width: 450px;
-} */
 
 .tile {
     width: 48px;
@@ -67,7 +57,7 @@ h1 {
 }
 
 .tile-start {
-    background-color: cornsilk;
+    background-color: #f6eee2;
 }
 
 .horizontal {
@@ -90,8 +80,12 @@ h1 {
     display: inline-block;
     border-radius: 0px;
     font-size: 14px;
-    /* box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03); */
-    /* transition: all .5s ease; */
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    transition: all .5s ease;
+}
+
+.number:hover {
+    background-color: #f0e3d0;
 }
 
 /* .num-select:hover {
@@ -100,11 +94,11 @@ h1 {
 /* } */ 
 
 .num-select {
-    background-color: grey;
+    background-color: #f4eadc;
 }
 
 #submit {
-    background-color: antiquewhite;
+    background-color: #e3c9a4;
     border: 1px solid black;
     color: black;
     padding: 10px 30px;
@@ -113,4 +107,23 @@ h1 {
     font-weight: 550;
     display: inline-block;
     font-size: 15px;
+}
+
+#submit:hover {
+    background-color: #dfc197;
+}
+
+.restart-butt {
+    background-color: #e3c9a4;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.restart-butt:hover {
+    background-color: #dfc197;
 }
