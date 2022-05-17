@@ -18,6 +18,7 @@ The starting puzzle board provides a partially filled 9x9 grid, and has a single
 
 Example of partially filled 9x9 grid: 
 
+<img width="503" alt="partially filled sudoku board" src="https://user-images.githubusercontent.com/103879314/168708534-9800a961-6334-4110-b774-de449fe39723.png">
 
 
 ### How to play
@@ -44,14 +45,21 @@ I felt that the goals I set for each day of the project timeframe were relativel
 ## Code & Code Design
 
 ***What in my code and program design in the project would I do differently next time?*** <br>
-I think I should definitely look towards simpler solutions instead of dumping everything inside a for loop or if conditional 
+I think I should definitely look towards simpler solutions or making clearer distinctions between each function as each function has many different uses and an error in one function might just crash the whole game.
+
+For example:
+
+<img width="508" alt="image" src="https://user-images.githubusercontent.com/103879314/168709373-3f4821e5-4f55-4a59-b12c-5250714b8219.png">
 
 
 ***What in my code and program design in the project went well? Is there anything I would do the same next time?*** <br>
 Coding based on a wireframe really helped! It gave me an end idea of how I wanted the game to look like and allowed me to brainstorm around it. 
 I think doing up a wireframe or even drawing a rough sketch/outline of the end product helped me with breaking the project into smaller chunks and determining what might be needed each step of the way and I would probably do this again next time.
 
-Image of wireframe here 
+Initial wireframe:
+
+![IMG_0045](https://user-images.githubusercontent.com/103879314/168709046-f060ea33-63d2-4d70-b577-f4351dd6e2c5.jpg)
+
 
 ## SEI Post Mortem
 
